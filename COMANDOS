@@ -1,0 +1,131 @@
+Nicaragua27:~ alumno$ mkdir FundamentosDeProgramacion
+Nicaragua27:~ alumno$ mkdir Quimica
+Nicaragua27:~ alumno$ mk dir Fisica
+-bash: mk: command not found
+Nicaragua27:~ alumno$ mkdir Fisica
+Nicaragua27:~ alumno$ ls
+Desktop				FundamentosDeProgramacion	Pictures
+Documents			Library				Quimica
+Downloads			Movies
+Fisica				Music
+Nicaragua27:~ alumno$ mkdir calculo
+Nicaragua27:~ alumno$ mkdir mkdir algebra
+Nicaragua27:~ alumno$ ls
+Desktop				Library				algebra
+Documents			Movies				calculo
+Downloads			Music				mkdir
+Fisica				Pictures
+FundamentosDeProgramacion	Quimica
+Nicaragua27:~ alumno$ ls
+Desktop				Library				algebra
+Documents			Movies				calculo
+Downloads			Music				mkdir
+Fisica				Pictures
+FundamentosDeProgramacion	Quimica
+Nicaragua27:~ alumno$ rm -r mkdir
+Nicaragua27:~ alumno$ ls
+Desktop				FundamentosDeProgramacion	Pictures
+Documents			Library				Quimica
+Downloads			Movies				algebra
+Fisica				Music				calculo
+Nicaragua27:~ alumno$ cdFisica
+-bash: cdFisica: command not found
+Nicaragua27:~ alumno$ cd Fisica
+Nicaragua27:Fisica alumno$ touch archivo.txt
+Nicaragua27:Fisica alumno$ ls
+archivo.txt
+Nicaragua27:Fisica alumno$ cd
+Nicaragua27:~ alumno$ cd FundamentosDeProgramacion
+Nicaragua27:FundamentosDeProgramacion alumno$ touch archivo.txt
+Nicaragua27:FundamentosDeProgramacion alumno$ ls
+archivo.txt
+Nicaragua27:FundamentosDeProgramacion alumno$ cd
+Nicaragua27:~ alumno$ cd Quimica
+Nicaragua27:Quimica alumno$ touch archivo.txt
+Nicaragua27:Quimica alumno$ cd
+Nicaragua27:~ alumno$ cd algebra
+Nicaragua27:algebra alumno$ touch archivo.txt
+Nicaragua27:algebra alumno$ ls
+archivo.txt
+Nicaragua27:algebra alumno$ cd
+Nicaragua27:~ alumno$ cd calculo
+Nicaragua27:calculo alumno$ touch archivo.txt
+Nicaragua27:calculo alumno$ ls
+archivo.txt
+Nicaragua27:calculo alumno$ cd
+Nicaragua27:~ alumno$ ls
+Desktop				FundamentosDeProgramacion	Pictures
+Documents			Library				Quimica
+Downloads			Movies				algebra
+Fisica				Music				calculo
+Nicaragua27:~ alumno$ cd fisica
+Nicaragua27:fisica alumno$ echo "Ernesto Martinez Mercado" >> archivo.txt
+Nicaragua27:fisica alumno$ echo "419035471" >> archivo.txt
+Nicaragua27:fisica alumno$ open archivo.txt
+çNicaragua27:fisica alumno$ cat archivo.txt
+Ernesto Martinez Mercado
+419035471
+Nicaragua27:fisica alumno$ ls
+archivo.txt
+Nicaragua27:fisica alumno$ cd
+Nicaragua27:~ alumno$ ls
+Desktop				FundamentosDeProgramacion	Pictures
+Documents			Library				Quimica
+Downloads			Movies				algebra
+Fisica				Music				calculo
+Nicaragua27:~ alumno$ cd FundamentosDeProgramacion
+Nicaragua27:FundamentosDeProgramacion alumno$ ls
+archivo.txt
+Nicaragua27:FundamentosDeProgramacion alumno$ echo "Ernesto Martinez Mercado" >> archivo.txt
+Nicaragua27:FundamentosDeProgramacion alumno$ ls
+archivo.txt
+Nicaragua27:FundamentosDeProgramacion alumno$ cat archivo.txt
+Ernesto Martinez Mercado
+Nicaragua27:FundamentosDeProgramacion alumno$ echo "419035471" >> archivo.txt
+Nicaragua27:FundamentosDeProgramacion alumno$ cat archivo.txt
+Ernesto Martinez Mercado
+419035471
+Nicaragua27:FundamentosDeProgramacion alumno$ cd
+Nicaragua27:~ alumno$ cd Quimica
+Nicaragua27:Quimica alumno$ ls
+archivo.txt
+Nicaragua27:Quimica alumno$ echo "Ernesto Martinez Mercado" >> archivo.txt
+Nicaragua27:Quimica alumno$ cat archivo.txt
+Ernesto Martinez Mercado
+Nicaragua27:Quimica alumno$ echo "419035471" >> archivo.txt
+Nicaragua27:Quimica alumno$ cat archivo.txt
+Ernesto Martinez Mercado
+419035471
+Nicaragua27:Quimica alumno$ ls
+archivo.txt
+Nicaragua27:Quimica alumno$ cd
+Nicaragua27:~ alumno$ cd algebra
+Nicaragua27:algebra alumno$ echo "Ernesto Martinez Mercado" >> archivo.txt
+Nicaragua27:algebra alumno$ echo "419035471" >> archivo.txt
+Nicaragua27:algebra alumno$ cat archivo.txt
+Ernesto Martinez Mercado
+419035471
+Nicaragua27:algebra alumno$ ls
+archivo.txt
+Nicaragua27:algebra alumno$ cd
+Nicaragua27:~ alumno$ ls
+Desktop				FundamentosDeProgramacion	Pictures
+Documents			Library				Quimica
+Downloads			Movies				algebra
+Fisica				Music				calculo
+Nicaragua27:~ alumno$ cd calculo
+Nicaragua27:calculo alumno$ echo "Ernesto Martinez Mercado" >> archivo.txt
+Nicaragua27:calculo alumno$ echo "419035471" >> archivo.txt+
+Nicaragua27:calculo alumno$ ls
+archivo.txt	archivo.txt+
+Nicaragua27:calculo alumno$ rm -r archivo.txt+
+Nicaragua27:calculo alumno$ ls
+archivo.txt
+Nicaragua27:calculo alumno$ cat archivo.txt
+Ernesto Martinez Mercado
+Nicaragua27:calculo alumno$ echo "419035471" >> archivo.txt
+Nicaragua27:calculo alumno$ ls
+archivo.txt
+Nicaragua27:calculo alumno$ cat archivo.txt
+Ernesto Martinez Mercado
+419035471
